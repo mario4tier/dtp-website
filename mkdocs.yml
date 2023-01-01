@@ -1,0 +1,31 @@
+site_name: DTP
+repo_url: https://github.com/mario4tier/dtp
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
+  favicon: images/favicon.png
+  logo: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode    
+markdown_extensions:
+  - footnotes
