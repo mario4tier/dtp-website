@@ -10,7 +10,6 @@ repo_url: https://github.com/mario4tier/dtp
 
 theme:
   name: material
-  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   favicon: images/favicon.png
