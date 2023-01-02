@@ -51,7 +51,13 @@ theme:
   #    accent: blue
   #    toggle:  
   #      icon: material/brightness-7 
-  #      name: Switch to dark mode    
+  #      name: Switch to dark mode
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+
 markdown_extensions:
   - abbr
   - admonition
